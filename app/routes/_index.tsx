@@ -8,7 +8,7 @@ export default function Index() {
   return (
     <div className="flex flex-col h-screen container mx-auto">
       <header>
-        <div className="flex">
+        <div className="grid grid-cols-2 gap-4">
           <div>
           <h1 className="text-3xl bg-primary font-bold">
             Dottie
