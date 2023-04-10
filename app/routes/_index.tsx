@@ -10,7 +10,7 @@ export default function Index() {
       <header>
         <div className="grid grid-flow-col auto-cols-min">
           <div>
-          <h1 className="text-3xl bg-primary font-bold">
+          <h1 className="text-3xl bg-secondary font-bold">
             Dottie
           </h1>
           <p>Log line</p>
@@ -23,10 +23,10 @@ export default function Index() {
       <p>Lorem Ipsum</p>
       </header>
       <main className="grid grid-cols-2 grid-rows-2 gap-4">
-        <div className="p-10 bg-primary text-center font-bold">1</div>
+        <div className="p-10 bg-secondary text-center font-bold">1</div>
         <div className="p-10 bg-primary text-center font-bold">2</div>
         <div className="p-10 bg-primary text-center font-bold">3</div>
-        <div className="p-10 bg-primary text-center font-bold">4</div>
+        <div className="p-10 bg-secondary text-center font-bold">4</div>
       </main>
       <footer className="flex justify-center">
         <p>Copyright © {(new Date().getFullYear())} - All rights reserved</p>
