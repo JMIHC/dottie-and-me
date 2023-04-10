@@ -8,10 +8,19 @@ export default function Index() {
   return (
     <div className="flex flex-col h-screen container mx-auto">
       <header>
-      <h1 className="text-3xl bg-primary font-bold">
-        Dottie page
-      </h1>
-      <p>Log line</p>
+        <div className="flex">
+          <div>
+          <h1 className="text-3xl bg-primary font-bold">
+            Dottie
+          </h1>
+          <p>Log line</p>
+          </div>
+          <div>
+            {/* <img alt="Dottie" src="/dottie.png" /> */}
+          </div>
+        </div>
+      <h2>About</h2>
+      <p>Lorem Ipsum</p>
       </header>
       <main className="grid grid-cols-2 grid-rows-2 gap-4">
         <div className="p-10 bg-primary text-center font-bold">1</div>
